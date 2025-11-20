@@ -6,9 +6,9 @@
 
 
 // Q> 2 short in accending order
-// const arr = [2, 3, 100, 44, 54, 32]
+const arr = [2, 3, 100, 44, 54, 32]
 // const arr = ['a', 'b', 'c', 'd', 'a']  // out put ['a', 'a', 'b', 'c', 'd'] sort by default string  alfabetic order mai sort karta hai
-// const result = arr.sort((a, b) => a - b)
+const result = arr.sort((a, b) => a - b)
 // console.log(result);
 // jo negative hai wo pahle ayega , or jo positive hai wo baad mai (a,b)=>a-b) using this
 // output [2, 3, 32, 44, 54, 100]
